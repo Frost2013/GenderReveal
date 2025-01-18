@@ -162,24 +162,7 @@
 
     <footer>
         © 2025 Gender Reveal — Организация праздников
-    </footer>
-
-    <script>
-        // Анимация конфетти
-        document.addEventListener("DOMContentLoaded", function() {
-            const confettiColors = ['#f9c6d4', '#c6e7f9', '#ffffff'];
-            for (let i = 0; i < 100; i++) {
-                let confetti = document.createElement('div');
-                confetti.style.position = 'fixed';
-                confetti.style.width = '10px';
-                confetti.style.height = '10px';
-                confetti.style.backgroundColor = confettiColors[Math.floor(Math.random() * confettiColors.length)];
-                confetti.style.top = Math.random() * window.innerHeight + 'px';
-                confetti.style.left = Math.random() * window.innerWidth + 'px';
-                confetti.style.animation = `fall ${Math.random() * 3 + 2}s linear infinite`;
-                document.body.appendChild(confetti);
-            }
-        });
+   
     </script>
 </body>
 </html>
